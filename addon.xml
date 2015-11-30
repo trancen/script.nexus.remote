@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.nexus.remote" name="Remapped Nexus Remote" version="1.0.0" provider-name="digii">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Remap Nexus Player Remote</summary>
+		<description lang="en">Remap the Nexus Player Remote to have Play button be used for Context popup menu</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<source>https://github.com/zag2me/script.hello.world</source>
+		<email>zag@kodi.org</email>
+	</extension>
+</addon>
